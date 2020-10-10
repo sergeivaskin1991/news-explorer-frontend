@@ -1,4 +1,4 @@
-## NewsExplorer
+## NewsExplorer (Frontend)
 + version 0.0.1
 
 ### О проекте
