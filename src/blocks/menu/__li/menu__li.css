@@ -1,0 +1,25 @@
+.menu__li {
+  list-style-type: none;
+  margin-left: 33px;
+}
+
+.menu__li:first-child {
+  margin-left: 0;
+}
+
+.menu__li:hover {
+  opacity: .7;
+  transition: .1s linear;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .menu__li {
+    margin-left: 18px;
+  }
+}
+
+@media screen and (min-width: 621px) and (max-width: 767px) {
+  .menu__li {
+    margin-left: 14px;
+  }
+}

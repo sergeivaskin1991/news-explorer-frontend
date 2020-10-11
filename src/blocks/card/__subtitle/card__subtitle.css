@@ -1,0 +1,20 @@
+.card__subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1B22;
+    margin: 0 0 18px;
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .card__subtitle {
+      margin: 0 0 12px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .card__subtitle {
+      margin: 0 0 8px;
+    }
+  }
+  

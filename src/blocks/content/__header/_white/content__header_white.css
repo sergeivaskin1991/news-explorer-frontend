@@ -1,0 +1,27 @@
+.content__header_white {
+  color: #FFF;
+  background-image: url("../../../../images/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .content__header_white {
+    background-image: url("../../../../images/header768.png");
+    background-size: 100%;
+  }
+}
+
+@media screen and (min-width: 491px) and (max-width: 767px) {
+  .content__header_white {
+    background-image: url("../../../../images/header768.png");
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .content__header_white {
+    background-image: url("../../../../images/header320high.png");
+    background-size: 100%;
+  }
+}

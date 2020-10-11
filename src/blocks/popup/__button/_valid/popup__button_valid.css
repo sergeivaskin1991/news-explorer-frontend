@@ -1,0 +1,15 @@
+.popup__button_valid {
+  color: #FFF;
+  background: #2F71E5;
+  box-shadow: 0 5px 15px rgba(14, 26, 57, 0.2);
+}
+
+.popup__button_valid:hover {
+  background-color: #347EFF;
+  transition: .1s linear;
+}
+
+.popup__button_valid:active {
+  background-color: #2A65CC;
+  transition: .1s linear;
+}

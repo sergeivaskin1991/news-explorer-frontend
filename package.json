@@ -1,0 +1,57 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "description": "NewsExplorer",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack --mode production",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
+    "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeivaskin1991/news-explorer-frontend.git"
+  },
+  "author": "Sergei Vaskin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergeivaskin1991/news-explorer-frontend/issues"
+  },
+  "homepage": "https://github.com/sergeivaskin1991/news-explorer-frontend#readme",
+  "devDependencies": {
+    "@babel/cli": "7.11.6",
+    "@babel/core": "7.11.6",
+    "@babel/preset-env": "7.11.5",
+    "autoprefixer": "10.0.1",
+    "babel-loader": "8.1.0",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "browserslist": "4.14.5",
+    "clean-webpack-plugin": "3.0.0",
+    "cross-env": "7.0.2",
+    "css-loader": "4.3.0",
+    "cssnano": "4.1.10",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "file-loader": "6.1.1",
+    "gh-pages": "3.1.0",
+    "html-webpack-plugin": "4.5.0",
+    "image-webpack-loader": "^7.0.1",
+    "mini-css-extract-plugin": "1.0.0",
+    "optimize-css-assets-webpack-plugin": "5.0.4",
+    "path": "0.12.7",
+    "postcss": "8.1.1",
+    "postcss-load-config": "3.0.0",
+    "postcss-loader": "4.0.4",
+    "style-loader": "2.0.0",
+    "webpack": "4.44.2",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0",
+    "webpack-md5-hash": "0.0.6"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "core-js": "3.4.1",
+    "normalize.css": "8.0.1"
+  }
+}

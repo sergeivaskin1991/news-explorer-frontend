@@ -1,0 +1,5 @@
+@media screen and (max-width: 620px) {
+  .menu__button_image-out-white_mobile {
+    content: url("../../../../../images/logout.svg");
+  }
+}

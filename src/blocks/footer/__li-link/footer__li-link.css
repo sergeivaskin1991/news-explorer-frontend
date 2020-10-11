@@ -1,0 +1,26 @@
+.footer__li-link {
+  list-style-type: none;
+  margin-left: -12px;
+}
+
+.footer__li-link:first-child {
+  margin-left: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer__li-link {
+    margin-left: 18px;
+  }
+}
+
+@media screen and (min-width: 475px) and (max-width: 767px) {
+  .footer__li-link {
+    margin-left: 34px;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .footer__li-link {
+    margin: 0;
+  }
+}

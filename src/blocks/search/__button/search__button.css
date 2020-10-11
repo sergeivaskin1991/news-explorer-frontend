@@ -1,0 +1,46 @@
+.search__button {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #2F71E5;
+  box-shadow: 0 5px 15px rgba(14, 26, 57, 0.2);
+  border-radius: 100px;
+  color: #FFF;
+  padding: 20px 54px;
+  border-style: none;
+}
+
+.search__button:hover {
+  background-color: #347EFF;
+  transition: .1s linear;
+}
+
+.search__button:active {
+  background-color: #2A65CC;
+  transition: .1s linear;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .search__button {
+    padding: 16px 54px;
+  }
+}
+
+@media screen and (min-width: 475px) and (max-width: 767px) {
+  .search__button {
+    padding: 16px 54px;;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .search__button {
+    position: static;
+    padding: 16px 54px;
+    width: 100%;
+  }
+}

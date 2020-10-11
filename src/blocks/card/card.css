@@ -1,0 +1,59 @@
+@import url(./__title/card__title.css);
+@import url(./__subtitle/card__subtitle.css);
+@import url(./__text-login/card__text-login.css);
+@import url(./__source/card__source.css);
+@import url(./__date-text/card__date-text.css);
+@import url(./__content/card__content.css);
+@import url(./__buttons/card__buttons.css);
+@import url(././__button/card__button.css);
+@import url(./__button/_save/card__button_save.css);
+@import url(./__button-delete/card__button-delete.css);
+@import url(././__image/card__image.css);
+@import url(./__tag/card__tag.css);
+@import url(./__tag-box/card__tag-box.css);
+
+.card {
+    position: relative;
+    background: #FFF;
+    border-radius: 16px;
+    min-width: 400px;
+    transition: box-shadow .3s;
+    display:inline;
+    padding-bottom: 0;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 2px 3px 15px rgba(8, 29, 45, 0.3);
+  }
+  
+  @media screen and (min-width: 1201px) and (max-width: 1439px) {
+    .card {
+      min-width: 350px;
+    }
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .card {
+      min-width: 300px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .card {
+      min-width: 224px;
+    }
+  }
+  
+  @media screen and (min-width: 475px) and (max-width: 767px) {
+    .card {
+      min-width: 218px;
+    }
+  }
+  
+  @media screen and (max-width: 474px) {
+    .card {
+      min-width: 288px;
+    }
+  }
+  

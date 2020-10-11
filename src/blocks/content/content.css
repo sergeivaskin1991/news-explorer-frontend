@@ -1,0 +1,11 @@
+@import url(./__header/content__header.css);
+@import url(./__news-result/content__news-result.css);
+@import url(./__author-abouth/content__author-about.css);
+@import url(./__footer/content__footer.css);
+@import url(./__result-articles/content__result-articles.css);
+@import url(./__news-result/_articles/content__news-result_articles.css);
+
+.content {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+}

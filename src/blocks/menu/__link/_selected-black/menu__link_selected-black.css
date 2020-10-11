@@ -1,0 +1,10 @@
+.menu__link_selected-black {
+  border-bottom: 3px solid #1A1B22;
+}
+
+@media screen and (max-width: 620px) {
+  .menu__link_selected-black {
+    border-bottom: none;
+  }
+}
+

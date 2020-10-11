@@ -1,0 +1,7 @@
+@media screen and (max-width: 620px) {
+  .header__button-popup_close {
+    background-image: url("../../../../images/menuMobExit.svg");
+  }
+}
+
+

@@ -1,0 +1,6 @@
+@media screen and ( min-width: 320px ) and (max-width: 620px) {
+  .page_fixed_mobile {
+    position: fixed;
+  }
+}
+

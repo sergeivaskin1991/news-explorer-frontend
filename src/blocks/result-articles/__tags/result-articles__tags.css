@@ -1,0 +1,13 @@
+.result-articles__tags {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .result-articles__tags {
+    font-size: 14px;
+  }
+}

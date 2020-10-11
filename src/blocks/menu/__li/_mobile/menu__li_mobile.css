@@ -1,0 +1,6 @@
+@media screen and (max-width: 620px) {
+  .menu__li_mobile {
+    margin-left: 0;
+  }
+}
+

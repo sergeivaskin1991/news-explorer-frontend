@@ -17,7 +17,8 @@
 `ESlint`
 
 ### Как найти
-+ https://github.com/sergeivaskin1991/news-explorer-frontend
++ https://sergeivaskin1991.github.io/news-explorer-frontend/
+
 
 ### Развертывание проекта
 * Установить Node.js

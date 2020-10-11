@@ -1,0 +1,12 @@
+.popup__name_type_small {
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  margin-top: 14px;
+  display: block;
+}
+
+.popup__name_type_small:hover {
+  opacity: .7;
+  transition: .1s linear;
+}
