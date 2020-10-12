@@ -1,13 +1,13 @@
 .footer__links {
-	display: flex;
-	margin: 0 0 0 auto;
-	padding: 0;
+  display: flex;
+  margin: 0 0 0 auto;
+  padding: 0;
 }
 
 @media screen and (max-width: 474px) {
-	.footer__links {
-		grid-area: post-1;
-		flex-direction: column;
-		margin: 8px 0 28px;
-	}
+  .footer__links {
+    grid-area: post-1;
+    flex-direction: column;
+    margin: 8px 0 28px;
+  }
 }

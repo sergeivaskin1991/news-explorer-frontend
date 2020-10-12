@@ -48,14 +48,13 @@
       <section class="news-result content__news-result content__news-result_articles">
         <div class="news-result__cards">
           <div class="card">
-            <div class="card__image-park">
-              <div class="card__buttons">
+            <img class="card__image" src="<%=require('./images/parkki2.png')%>" alt="изображение растения">
+            <div class="card__buttons">
 
-                <button class="button card__button-delete"></button>
-              </div>
-              <div class="card__tag-box">
-                <span class="card__tag">Природа</span>
-              </div>
+              <button class="button card__button-delete"></button>
+            </div>
+            <div class="card__tag-box">
+              <span class="card__tag">Природа</span>
             </div>
             <a href="https://lenta.ru/" class="card__content" target="_blank">
               <p class="card__date-text">2 августа, 2019</p>
@@ -69,7 +68,7 @@
             </a>
           </div>
           <div class="card">
-            <div class="card__image-ogon">
+            <img class="card__image" src="<%=require('./images/lesn_ogonki.png')%>" alt="изображение растения">
               <div class="card__buttons">
                 <span class="card__text-login">Убрать из сохранённых</span>
                 <button class="button card__button-delete"></button>
@@ -77,7 +76,6 @@
               <div class="card__tag-box">
                 <span class="card__tag">Природа</span>
               </div>
-            </div>
             <a href="https://www.afisha.ru/" class="card__content" target="_blank">
               <p class="card__date-text">2 августа, 2019</p>
               <h2 class="card__title">Лесные огоньки: история одной фотографии</h2>
@@ -90,14 +88,13 @@
             </a>
           </div>
           <div class="card">
-            <div class="card__image-parki">
+            <img class="card__image" src="<%=require('./images/parki1.png')%>" alt="изображение растения">
               <div class="card__buttons">
                 <button class="button card__button-delete"></button>
               </div>
               <div class="card__tag-box">
                 <span class="card__tag">Тайга</span>
               </div>
-            </div>
             <a href="https://zona.media/" class="card__content" target="_blank">
               <p class="card__date-text">2 августа, 2019</p>
               <h2 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h2>
@@ -109,14 +106,13 @@
             </a>
           </div>
           <div class="card">
-            <div class="card__image-park">
+            <img class="card__image" src="<%=require('./images/parkki2.png')%>" alt="изображение растения">
               <div class="card__buttons">
                 <button class="button card__button-delete"></button>
               </div>
               <div class="card__tag-box">
                 <span class="card__tag">Природа</span>
               </div>
-            </div>
             <a href="https://lenta.ru/" class="card__content" target="_blank">
               <p class="card__date-text">2 августа, 2019</p>
               <h2 class="card__title">Национальное достояние – парки</h2>
@@ -124,19 +120,18 @@
                 В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных
                 парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.
               </p>
-              
+
               <p class="card__source">ЛЕНТА.РУ</p>
             </a>
           </div>
           <div class="card">
-            <div class="card__image-ogon">
+            <img class="card__image" src="<%=require('./images/lesn_ogonki.png')%>" alt="изображение растения">
               <div class="card__buttons">
                 <button class="button card__button-delete"></button>
               </div>
               <div class="card__tag-box">
                 <span class="card__tag">Фотография</span>
               </div>
-            </div>
             <a href="https://www.afisha.ru/" class="card__content" target="_blank">
               <p class="card__date-text">2 августа, 2019</p>
               <h2 class="card__title">Лесные огоньки: история одной фотографии</h2>
@@ -153,34 +148,34 @@
       </section>
     </main>
 
-    <footer class="footer content__footer">
-      <p class="footer__copyright">© 2020 Supersite, Powered by
-        <a class="footer__copyright-link" href="https://newsapi.org" target="_blank">News API</a>
-      </p>
-      <ul class="footer__links">
-        <li class="footer__li-link"><a class="footer__link" href="index.html">Главная</a></li>
-        <li class="footer__li-link">
-          <a class="footer__link" href="https://praktikum.yandex.ru" target="_blank">Яндекс.Практикум</a>
-        </li>
-      </ul>
-      <ul class="footer__logo-icons">
-        <li class="footer__li-logo">
-          <a class="footer__icon-link" href="https://github.com/sergeivaskin1991" target="_blank">
-            <img class="footer__img" src="<%=require('./images/github.svg')%>" alt="Гитхаб">
-          </a>
-        </li>
-      </ul>
-      <ul class="footer__logo-icons">
-        <li class="footer__li-logo">
-          <a class="footer__icon-link" href="https://www.facebook.com/profile.php?id=100001335879449" target="_blank">
-            <picture>
-              <source srcset="<%=require('./images/fb768-320.svg')%>" media="(max-width: 1024px)">
-              <img class="footer__img" src="<%=require('./images/fb.svg')%>" alt="Фейсбук">
-            </picture>
-          </a>
-        </li>
-      </ul>
-    </footer>
+
+		<footer class="footer content__footer">
+			<p class="footer__copyright">© 2020 Supersite, Powered by
+				<a class="footer__copyright-link" href="https://newsapi.org" target="_blank">News API</a>
+			</p>
+			<ul class="footer__links">
+				<li class="footer__li-link"><a href="index.html" class="footer__link">Главная</a></li>
+				<li class="footer__li-link">
+					<a href="https://praktikum.yandex.ru" class="footer__link" target="_blank">Яндекс.Практикум</a>
+				</li>
+			</ul>
+			<ul class="footer__logo-icons">
+				<li class="footer__li-logo">
+					<a href="https://github.com/sergeivaskin1991" class="footer__icon-link" target="_blank">
+						<img class="footer__img" src="<%=require('./images/github.svg')%>" alt="Гитхаб.">
+					</a>
+				</li>
+				<li class="footer__li-logo">
+					<a href="https://www.facebook.com/profile.php?id=100001335879449" class="footer__icon-link" target="_blank">
+						<picture>
+							<source srcset="<%=require('./images/fb768-320.svg')%>" media="(max-width: 1024px)">
+							<img class="footer__img" src="<%=require('./images/fb.svg')%>" alt="Фeйсбук.">
+						</picture>
+					</a>
+				</li>
+			</ul>
+		</footer>
+
     <div class="mobile-menu"></div>
   </div>
   <script type="module" src="<%= htmlWebpackPlugin.files.js %>"></script>
