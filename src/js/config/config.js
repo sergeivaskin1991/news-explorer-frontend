@@ -6,7 +6,7 @@ const API_URL = NODE_ENV === 'development'
 
 const PROJECT_URL = NODE_ENV === 'development'
   ? 'http://localhost:3000'
-  : 'https://api.svaskin.students.nomoreparties.co';
+  : 'http://api.svaskin.students.nomoreparties.co';
 
 export const config = {
   baseUrl: `${PROJECT_URL}`,
