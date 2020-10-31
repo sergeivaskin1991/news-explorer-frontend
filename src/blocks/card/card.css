@@ -11,6 +11,7 @@
 @import url(././__image/card__image.css);
 @import url(./__tag/card__tag.css);
 @import url(./__tag-box/card__tag-box.css);
+@import url(./__buttons/_is-opened/card__buttons_is-opened.css);
 
 .card {
     position: relative;

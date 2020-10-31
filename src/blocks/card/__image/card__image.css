@@ -1,4 +1,5 @@
 .card__image {
+    background-image: url("../../../images/test-card.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
