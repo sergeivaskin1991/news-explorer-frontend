@@ -63,7 +63,8 @@
 
 			<section class="result-search">
 				<div class="circle-preloader">
-					<div class="circle-preloader__eclipse"><div></div>
+					<div class="circle-preloader__eclipse">
+						<div></div>
 					</div>
 				</div>
 				<p class="result-search__subtitle">Идет поиск новостей...</p>
@@ -132,70 +133,77 @@
 			</ul>
 		</footer>
 
+
 		<div class="popup popup_type_auth">
 			<div class="popup__content">
-			  <img src="<%=require('./images/close.svg')%>" alt="Кнопка закрыть." class="popup__close popup__close_auth">
-			  <h3 class="popup__title">Регистрация</h3>
-			  <form class="popup__form" id="auth" name="auth" novalidate>
-				<div class="popup__input-container">
-				  <span class="popup__name">Email</span>
-				  <input id="email" type="email" name="email" class="popup__input popup__input_type_email"
-						 placeholder="Введите Email" required>
-				  <span id="email-error" class="error"></span>
+				<img src="<%=require('./images/close.svg')%>" alt="Кнопка закрыть."
+					class="popup__close popup__close_auth">
+				<h3 class="popup__title">Регистрация</h3>
+				<form class="popup__form" id="auth" name="auth" novalidate>
+					<div class="popup__input-container">
+						<span class="popup__name">Email</span>
+						<input id="email" type="email" name="email" class="popup__input popup__input_type_email"
+							placeholder="Введите Email" required>
+						<span id="email-error" class="error"></span>
+					</div>
+					<div class="popup__input-container">
+						<span class="popup__name">Пароль</span>
+						<input id="password" type="password" name="password"
+							class="popup__input popup__input_type_password" placeholder="Введите пароль" minlength="8"
+							required>
+						<span id="password-error" class="error"></span>
+					</div>
+					<div class="popup__input-container">
+						<span class="popup__name">Имя</span>
+						<input id="name" type="text" name="name" class="popup__input popup__input_type_name"
+							placeholder="Введите своё имя" minlength="2" maxlength="32" required>
+						<span id="name-error" class="error"></span>
+					</div>
+					<span id="doubleUser-error" class="error popup__error popup__error_server_auth"></span>
+					<button type="submit" class="button popup__button popup__button_auth">Зарегистрироваться</button>
+				</form>
+				<div class="popup__text">
+					<p class="popup__or">или <a class="popup__name-link popup__name-link_auth" href="">Войти</a></p>
 				</div>
-				<div class="popup__input-container">
-				  <span class="popup__name">Пароль</span>
-				  <input id="password" type="password" name="password" class="popup__input popup__input_type_password"
-						 placeholder="Введите пароль" minlength="8" required>
-				  <span id="password-error" class="error"></span>
-				</div>
-				<div class="popup__input-container">
-				  <span class="popup__name">Имя</span>
-				  <input id="name" type="text" name="name" class="popup__input popup__input_type_name"
-						 placeholder="Введите своё имя" minlength="2" maxlength="32" required>
-				  <span id="name-error" class="error"></span>
-				</div>
-				<span id="doubleUser-error" class="error popup__error popup__error_server_auth"></span>
-				<button type="submit" class="button popup__button popup__button_auth">Зарегистрироваться</button>
-			  </form>
-			  <div class="popup__text">
-				<p class="popup__or">или <a class="popup__name-link popup__name-link_auth" href="">Войти</a></p>
-			  </div>
 			</div>
-		  </div>
-	  
-		  <div class="popup popup_type_login">
+		</div>
+
+		<div class="popup popup_type_login">
 			<div class="popup__content">
-			  <img src="<%=require('./images/close.svg')%>" alt="Кнопка закрыть." class="popup__close popup__close_login">
-			  <h3 class="popup__title">Вход</h3>
-			  <form class="popup__form" id="login" name="login" novalidate>
-				<div class="popup__input-container">
-				  <span class="popup__name">Email</span>
-				  <input id="emailLogin" type="email" name="email" class="popup__input popup__input_type_email"
-						 placeholder="Введите Email" required>
-				  <span id="emailLogin-error" class="error"></span>
+				<img src="<%=require('./images/close.svg')%>" alt="Кнопка закрыть."
+					class="popup__close popup__close_login">
+				<h3 class="popup__title">Вход</h3>
+				<form class="popup__form" id="login" name="login" novalidate>
+					<div class="popup__input-container">
+						<span class="popup__name">Email</span>
+						<input id="emailLogin" type="email" name="email" class="popup__input popup__input_type_email"
+							placeholder="Введите Email" required>
+						<span id="emailLogin-error" class="error"></span>
+					</div>
+					<div class="popup__input-container">
+						<span class="popup__name">Пароль</span>
+						<input id="passwordLogin" type="password" name="password"
+							class="popup__input popup__input_type_password" placeholder="Введите пароль" minlength="8"
+							required>
+						<span id="passwordLogin-error" class="error"></span>
+					</div>
+					<span id="loginUser-error" class="error popup__error popup__error_server_login"></span>
+					<button type="submit" class="button popup__button popup__button_login" disabled>Войти</button>
+				</form>
+				<div class="popup__text">
+					<p class="popup__or">или <a class="popup__name-link popup__name-link_login"
+							href="">Зарегестрироваться</a></p>
 				</div>
-				<div class="popup__input-container">
-				  <span class="popup__name">Пароль</span>
-				  <input id="passwordLogin" type="password" name="password" class="popup__input popup__input_type_password"
-						 placeholder="Введите пароль" minlength="8" required>
-				  <span id="passwordLogin-error" class="error"></span>
-				</div>
-				<span id="loginUser-error" class="error popup__error popup__error_server_login"></span>
-				<button type="submit" class="button popup__button popup__button_login" disabled>Войти</button>
-			  </form>
-			  <div class="popup__text">
-				<p class="popup__or">или <a class="popup__name-link popup__name-link_login" href="">Зарегестрироваться</a></p>
-			  </div>
 			</div>
-		  </div>
-		  <div class="popup popup_type_correctly">
+		</div>
+		<div class="popup popup_type_correctly">
 			<div class="popup__content popup__content_type_small">
-			  <img src="<%=require('./images/close.svg')%>" alt="Кнопка закрыть." class="popup__close popup__close_correctly">
-			  <h3 class="popup__title">Пользователь успешно зарегистрирован!</h3>
-			  <a href="" class="popup__name popup__name_type_small">Войти</a>
+				<img src="<%=require('./images/close.svg')%>" alt="Кнопка закрыть."
+					class="popup__close popup__close_correctly">
+				<h3 class="popup__title">Пользователь успешно зарегистрирован!</h3>
+				<a href="" class="popup__name popup__name_type_small">Войти</a>
 			</div>
-		  </div>
+		</div>
 
 		<div class="mobile-menu"></div>
 	</div>

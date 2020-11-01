@@ -1,16 +1,16 @@
-@import url(./__title/card__title.css);
 @import url(./__subtitle/card__subtitle.css);
-@import url(./__text-login/card__text-login.css);
-@import url(./__source/card__source.css);
-@import url(./__date-text/card__date-text.css);
+@import url(./__title/card__title.css);
 @import url(./__content/card__content.css);
-@import url(./__buttons/card__buttons.css);
-@import url(././__button/card__button.css);
-@import url(./__button/_save/card__button_save.css);
-@import url(./__button-delete/card__button-delete.css);
 @import url(././__image/card__image.css);
-@import url(./__tag/card__tag.css);
+@import url(./__text-login/card__text-login.css);
+@import url(./__buttons/card__buttons.css);
+@import url(./__date-text/card__date-text.css);
+@import url(./__source/card__source.css);
+@import url(././__button/card__button.css);
+@import url(./__button-delete/card__button-delete.css);
 @import url(./__tag-box/card__tag-box.css);
+@import url(./__tag/card__tag.css);
+@import url(./__button/_save/card__button_save.css);
 @import url(./__buttons/_is-opened/card__buttons_is-opened.css);
 
 .card {

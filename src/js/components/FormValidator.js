@@ -5,7 +5,8 @@ export default class FormValidator {
     this._setListeners();
   }
 
-  _isValidate = inputElement => { // Проверка полей на ошибки
+  // Проверка полей на ошибки
+  _isValidate = inputElement => {
     inputElement.setCustomValidity('');
     if (inputElement.validity.valueMissing) {
       inputElement.setCustomValidity(this._errorMessages.valueMissing);
@@ -23,18 +24,21 @@ export default class FormValidator {
     return inputElement.checkValidity();
   }
 
-  _inputErrorAdd = inputElement => { // Присваиваем ошибку
+// Присваиваем ошибку
+  _inputErrorAdd = inputElement => { 
     this.errorMessage = this._someForm.querySelector(`#${inputElement.id}-error`);
     this.errorMessage.textContent = inputElement.validationMessage;
   }
 
-  _isFieldValid = inputElement => { // Записывает и возвращает ошибку
+// Записывает и возвращает ошибку
+  _isFieldValid = inputElement => { 
     const valid = this._isValidate(inputElement);
     this._inputErrorAdd(inputElement);
     return valid;
   }
 
-  setSubmitButtonState = stateElement => { // Включает/выключает кнопку
+// Включает и выключает кнопку
+  setSubmitButtonState = stateElement => { 
     if (stateElement) {
       this.button.removeAttribute('disabled');
       this.button.classList.add('popup__button_valid');
@@ -44,7 +48,8 @@ export default class FormValidator {
     }
   }
 
-  handlerInputForm = event => { // Cлушатель на инпут
+// Cлушатель на инпут
+  handlerInputForm = event => {
     this._isFieldValid(event.target);
     if (this._someForm.checkValidity()) {
       this.setSubmitButtonState(true);

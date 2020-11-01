@@ -14,7 +14,7 @@ export default class NewsCard {
         <div class="card">
           <div class="card__image" style="background-image: url(${this._sanitizeHTML(this._imgIsNull(obj))})">
             <div class="card__buttons">
-              <span class="card__text-login card__buttons_is-opened">Войдите, чтобы сохранять статьи</span>
+            <span class="card__text-login card__buttons_is-opened">Войдите, чтобы сохранять статьи</span>
               <button class="button card__button" disabled></button>
             </div>
           </div>
