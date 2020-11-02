@@ -19,7 +19,7 @@
 
 ### Как найти
 + https://sergeivaskin1991.github.io/news-explorer-frontend/
-+ http://svaskin.students.nomoreparties.co/
++ http://vaskin.students.nomoreparties.co/
 
 
 ### Развертывание проекта
