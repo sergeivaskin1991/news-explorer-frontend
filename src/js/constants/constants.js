@@ -8,6 +8,7 @@ export const errorMessages = {
   tooShortPass: 'Минимум 8 символов',
   typeMismatch: 'Некорректный Email',
   tooShort: 'Должно быть от 2 до 30 символов',
+  vvod: 'Текст должен быть от 2-х символов',
 };
 
 export const objStatus = {
@@ -69,3 +70,5 @@ export const popupButtonRegistration = content.querySelector('.popup__button_aut
 export const popupTypeCorrectly = content.querySelector('.popup_type_correctly');
 export const popupCloseCorrectly = content.querySelector('.popup__close_correctly');
 export const popupButtonLogin = content.querySelector('.popup__button_login');
+
+export const formPlaceholderValid = content.querySelector('.search__input');

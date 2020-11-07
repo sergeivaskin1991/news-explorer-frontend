@@ -36,7 +36,7 @@ export default class FormValidator {
     this._inputErrorAdd(inputElement);
     return valid;
   }
-
+  
 // Включает и выключает кнопку
   setSubmitButtonState = stateElement => { 
     if (stateElement) {
@@ -49,7 +49,7 @@ export default class FormValidator {
   }
 
 // Cлушатель на инпут
-  handlerInputForm = event => {
+  handlerInputForm = event => { 
     this._isFieldValid(event.target);
     if (this._someForm.checkValidity()) {
       this.setSubmitButtonState(true);
