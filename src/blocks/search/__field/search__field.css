@@ -1,0 +1,10 @@
+.search__field {
+  max-width: 608px;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .search__field {
+    max-width: 452px;
+  }
+}

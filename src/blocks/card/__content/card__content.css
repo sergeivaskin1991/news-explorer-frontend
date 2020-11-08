@@ -1,0 +1,21 @@
+.card__content {
+    max-width: 352px;
+    padding: 20px 24px 24px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .card__content {
+      max-width: 192px;
+      padding: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .card__content {
+  
+      padding: 16px;
+    }
+  }
+  

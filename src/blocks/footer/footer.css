@@ -1,0 +1,27 @@
+@import url(./__link/footer__link.css);
+@import url(./__li-link/footer__li-link.css);
+@import url(./__li-logo/footer__li-logo.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__copyright-link/footer__copyright-link.css);
+@import url(./__img/footer__img.css);
+@import url(./__icon-link/footer__icon-link.css);
+@import url(./__links/footer__links.css);
+@import url(./__logo-icons/footer__logo-icons.css);
+
+.footer {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    display: grid;
+    grid-template-areas: "post-1 post-2"
+  "post-3 post-3";
+    align-items: start;
+  }
+}

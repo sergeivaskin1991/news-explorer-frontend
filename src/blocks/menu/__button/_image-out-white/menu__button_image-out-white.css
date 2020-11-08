@@ -1,0 +1,6 @@
+.menu__button_image-out-white {
+  content: url("../../../../images/logout-black.svg");
+  position: relative;
+  top: 6px;
+  left: 8px;
+}

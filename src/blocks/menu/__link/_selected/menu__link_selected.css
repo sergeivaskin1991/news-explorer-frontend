@@ -1,0 +1,9 @@
+.menu__link_selected {
+  border-bottom: 3px solid #FFF;
+}
+
+@media screen and (max-width: 620px) {
+  .menu__link_selected {
+    border-bottom: none;
+  }
+}

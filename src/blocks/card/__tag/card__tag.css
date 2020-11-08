@@ -1,0 +1,11 @@
+.card__tag {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  background: #FFFFFF;
+  box-shadow: 0 10px 22px rgba(59, 74, 116, 0.1);
+  border-radius: 10px;
+  border: none;
+  padding: 8px 12px;
+  display: block;
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width: 620px) {
+  .menu__button_mobile {
+    min-width: 288px;
+    margin-top: 22px;
+    padding: 16px 0 16px;
+    border: 1px solid #FFF;
+    color: #FFF;
+  }
+}

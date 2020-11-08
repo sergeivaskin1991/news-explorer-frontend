@@ -1,0 +1,24 @@
+.footer__logo-icons {
+  display: flex;
+  margin-left: 41px;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer__logo-icons {
+    margin-left: 8px;
+  }
+}
+
+@media screen and (min-width: 475px) and (max-width: 767px) {
+  .footer__logo-icons {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .footer__logo-icons {
+    grid-area: post-2;
+    margin: 20px 0 0 26px;
+  }
+}

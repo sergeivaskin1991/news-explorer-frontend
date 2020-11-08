@@ -1,0 +1,19 @@
+@import url(./_white/menu__link_white.css);
+@import url(./_black/menu__link_black.css);
+@import url(./_selected/menu__link_selected.css);
+@import url(./_selected-black/menu__link_selected-black.css);
+
+.menu__link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 22px;
+}
+
+@media screen and (min-width: 621px) and (max-width: 1024px) {
+  .menu__link {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+}

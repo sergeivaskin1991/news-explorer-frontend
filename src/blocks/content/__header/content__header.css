@@ -1,0 +1,6 @@
+@import url(./_white/content__header_white.css);
+@import url(./_black/content__header_black.css);
+
+.content__header {
+  margin: 0 auto;
+}

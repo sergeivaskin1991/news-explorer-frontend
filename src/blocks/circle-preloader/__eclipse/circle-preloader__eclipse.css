@@ -1,0 +1,36 @@
+@keyframes circle-preloader__eclipse {
+  0% {
+    transform: rotate(0deg)
+  }
+  50% {
+    transform: rotate(180deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+.circle-preloader__eclipse div {
+  position: absolute;
+  animation: circle-preloader__eclipse 1s linear infinite;
+  width: 88px;
+  height: 88px;
+  top: 6px;
+  left: 6px;
+  border-radius: 50%;
+  box-shadow: 0 2px 0 0 #444;
+  transform-origin: 44px 45px;
+}
+
+.circle-preloader__eclipse {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.78);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+
+.circle-preloader__eclipse div {
+  box-sizing: content-box;
+}

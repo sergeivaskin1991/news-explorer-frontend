@@ -1,0 +1,18 @@
+.search__content {
+  align-items: flex-start;
+  position: relative;
+}
+
+@media screen and ( min-width: 521px ) and (max-width: 767px) {
+  .search__content {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .search__content {
+    padding: 0 16px;
+  }
+}
+
+

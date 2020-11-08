@@ -1,0 +1,8 @@
+@media screen and (max-width: 620px) {
+  .menu__link {
+    padding: 0;
+    line-height: 56px;
+    color: #FFF;
+  }
+}
+

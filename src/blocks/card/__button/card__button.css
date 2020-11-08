@@ -1,0 +1,18 @@
+.card__button {
+    background-image: url("../../../images/buttonNoSave.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFF;
+    border: none;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-left: 5px;
+  }
+  
+  .card__button:hover {
+    background-image: url("../../../images/buttonSave.svg");
+    transition: .1s linear;
+  }
+  

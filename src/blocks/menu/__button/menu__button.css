@@ -1,0 +1,17 @@
+.menu__button {
+  border: 1px solid #FFF;
+  background: transparent;
+  color: #FFF;
+  padding: 7px 21px 11px 19px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 100px;
+}
+
+@media screen and (min-width: 621px) and (max-width: 1024px) {
+  .menu__button {
+    font-size: 16px;
+    padding: 0 17px 7px 15px;
+  }
+}

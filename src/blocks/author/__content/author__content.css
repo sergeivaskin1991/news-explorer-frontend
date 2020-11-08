@@ -1,0 +1,25 @@
+.author__content {
+	margin: 51px 0 0 56px;
+	/* min-height: 624px; */
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.author__content {
+		margin: 0 0 0 32px;
+	}
+}
+
+@media screen and (min-width: 650px) and (max-width: 767px) {
+	.author__content {
+		padding: 0 64px;
+		margin: 24px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 649px) {
+	.author__content {
+		padding: 0 16px;
+		margin: 24px 0 0 0;
+	}
+}

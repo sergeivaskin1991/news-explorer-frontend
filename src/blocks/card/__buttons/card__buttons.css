@@ -1,0 +1,30 @@
+.card__buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 24px;
+    margin-right: 24px;
+    display: flex;
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .card__buttons {
+      margin-top: 8px;
+      margin-right: 8px;
+    }
+  }
+  
+  @media screen and (min-width: 475px) and (max-width: 767px) {
+    .card__buttons {
+      margin-top: 8px;
+      margin-right: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 474px) {
+    .card__buttons {
+      margin-top: 16px;
+      margin-right: 16px;
+    }
+  }
+  

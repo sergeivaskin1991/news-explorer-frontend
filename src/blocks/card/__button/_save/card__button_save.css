@@ -1,0 +1,8 @@
+.card__button_save {
+    background-image: url("../../../../images/buttonSaveActive.svg");
+  }
+  
+  .card__button_save:hover {
+    background-image: url("../../../../images/buttonSaveActive.svg");
+  }
+  

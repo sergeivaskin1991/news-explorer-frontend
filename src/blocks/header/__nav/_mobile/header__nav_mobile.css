@@ -1,0 +1,9 @@
+@media screen and (max-width: 620px) {
+  .header__nav_mobile {
+    background: #1a1b22;
+    color: #FFF;
+    position: relative;
+    z-index: 3;
+  }
+}
+

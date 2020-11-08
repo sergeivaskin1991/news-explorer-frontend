@@ -1,0 +1,10 @@
+.menu__button_padding {
+  padding-top: 7px;
+
+}
+
+@media screen and (min-width: 1025px) {
+  .menu__button_padding {
+    padding-top: 11px;
+  }
+}

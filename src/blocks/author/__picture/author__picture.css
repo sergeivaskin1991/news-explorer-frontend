@@ -1,0 +1,16 @@
+.author__picture {
+	padding-left: 104px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.author__picture {
+		padding-left: 40px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.author__picture {
+		padding: 0;
+		margin: 0 auto;
+	}
+}
