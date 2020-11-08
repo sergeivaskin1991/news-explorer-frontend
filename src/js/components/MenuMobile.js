@@ -19,28 +19,24 @@ export default class MenuMobile {
     this.menuLiMobile = menuLiMobile;
     this.menuLinkMobile = menuLinkMobile;
     this.menuButtonMobile = menuButtonMobile;
-    this.addListeners = this.addListeners.bind(this);
-    this.open = this.open.bind(this);
-    this.transform = this.transform.bind(this);
-    this.arrayLi = this.arrayLi.bind(this);
   }
 
-  addListeners() {
-    this.buttonClose.addEventListener('click', this.open);
+  addListenersMenu = () => {
+    this.buttonClose.addEventListener('click', this._open);
   }
 
-  open(event) {
+  _open = event => {
     event.preventDefault();
-    this.transform();
+    this._transform();
   }
 
-  arrayLi() {
+  _arrayLi = () => {
     this.menuLiMobile.forEach((liElement) => {
       liElement.classList.toggle('menu__li_mobile');
     });
   }
 
-  transform() {
+  _transform = () => {
     this.buttonClose.classList.toggle('header__button-popup_close');
     this.menuNavMobile.classList.toggle('menu__nav_mobile');
     this.navMobile.classList.toggle('header__nav_mobile');
@@ -49,6 +45,6 @@ export default class MenuMobile {
     this.menuLinkMobile.classList.toggle('menu__link_mobile');
     this.menuButtonMobile.classList.toggle('menu__button_mobile');
     this.pageFixed.classList.toggle('page_fixed_mobile');
-    this.arrayLi();
+    this._arrayLi();
   }
 }

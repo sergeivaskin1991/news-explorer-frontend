@@ -1,3 +1,9 @@
+@import url(./_auth/menu__li_auth.css);
+@import url(./_nouser/menu__li_nouser.css);
+@import url(./_noarticles/menu__li_noarticles.css);
+@import url(./_saved_message/menu__li_saved_message.css);
+@import url(./_login/menu__li_login.css);
+
 .menu__li {
   list-style-type: none;
   margin-left: 33px;

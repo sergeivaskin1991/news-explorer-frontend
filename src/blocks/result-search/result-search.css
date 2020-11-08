@@ -1,0 +1,23 @@
+@import url(./__subtitle/result-search__subtitle.css);
+
+.result-search {
+  padding: 80px 0;
+  background-color: #F5F6F7;
+  margin: 0 auto;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .result-search {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .result-search {
+    padding: 32px 0;
+  }
+}
+

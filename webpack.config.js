@@ -10,8 +10,8 @@ const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
   entry: {
-    main: './src/js/index.js',
-    saveArticle: './src/js/saveArticle.js',
+    main: './src/index.js',
+    saveArticle: './src/articles/index.js',
   },
   output: {
     path: path.resolve(process.cwd(), 'dist'),
@@ -48,13 +48,13 @@ module.exports = {
         ],
       },
       {
-        test: /\.(jpe?g|svg|gif|ico|png)$/i,
+        test: /\.(png|jpe?g|svg|gif|ico)$/i,
         use: [
           {
             loader: 'file-loader',
             options: {
-              name: './images/[name].[ext]',
               esModule: false,
+              outputPath: './images/',
             },
           },
           {
@@ -62,6 +62,7 @@ module.exports = {
             options: {
               mozjpeg: {
                 progressive: true,
+                quality: 65,
               },
               optipng: {
                 enabled: false,
@@ -73,9 +74,6 @@ module.exports = {
               gifsicle: {
                 interlaced: false,
               },
-              // webp: {
-              //   quality: [0.65, 0.90],
-              // },
             },
           },
         ],
@@ -87,7 +85,7 @@ module.exports = {
     ],
   },
   devServer: {
-    port: 3000,
+    port: 8081,
   },
   plugins: [
     new CleanWebpackPlugin(),
